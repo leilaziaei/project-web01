@@ -4,14 +4,22 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: IranYekan;
-  src: url(../../fonts/yekan/IRANYekanWeb.eot);
-  src: url(../../fonts/yekan/IRANYekanWeb.ttf);
-  src: url(../../fonts/yekan/IRANYekanWeb.woff);
-  src: url(../../fonts/yekan/IRANYekanWeb.woff2);
+@font-face{
+    font-family: "iranyekan";
+    src: url(../fonts/iran-yekan/IRANYekanWeb-Bold.eot);
+    src: url(../fonts/iran-yekan/IRANYekanWeb-Bold.ttf);
+    src: url(../fonts/iran-yekan/IRANYekanWeb-Bold.woff);
+    src: url(../fonts/iran-yekan/IRANYekanWeb-Bold.woff2);
 }
 
+@font-face {
+    font-family: "Bnazanin";
+    src: url(../fonts/b-nazanin/BNazanin.eot);
+    src: url(../fonts/b-nazanin/BNazanin.ttf);
+    src: url(../fonts/b-nazanin/BNazanin.woff);
+    src: url(../fonts/b-nazanin/BNazanin.woff2);
+}
 :root {
-  --MyFont: IranYekan;
+  --fontfamiy: iranyekan ;
+  --fontFamilyNumber :Bnazanin;
 }
