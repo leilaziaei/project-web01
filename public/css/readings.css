@@ -1,0 +1,103 @@
+.readings{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+    .readings-center{
+        width: var(--widthBanner);
+        height: inherit;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        
+        .reading-title{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            span{
+                
+                text-align :right;
+                font-size: 15px;
+                font-family: var(--fontfamiy);
+                font-weight: normal;
+                margin-right: 55px;
+            }
+            a{
+                width: 300px;
+                height: inherit;
+                display: flex;
+                flex-flow: row nowrap;
+                text-decoration: none;
+                justify-content: center;
+                padding-left: 20px;
+                
+
+                span{
+
+                    font-size: 12px;
+                    font-family: var(--fontfamiy);
+                    font-weight: normal;
+                    color: var( --color-icon-text-blue);
+
+                }
+                img{
+                    width: 18px;
+                    height: 18px;
+                }
+
+            }
+            
+
+        }
+
+        .readings-items{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 15px;
+
+            .readings-items-link{
+                width: 325px;
+                height: 280px;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                row-gap: 15px;
+                border: 1px solid lightgray;
+                border-radius: 7px;
+                img{
+                    width: 100%;
+                    height: 210px;
+                    border-radius: 7px 7px 0 0;
+                }
+                p{
+                    width: 88%;
+                    height: 70px;
+                    text-align: right;
+                    font-size: 12px;
+                    font-family: var(--fontfamiy);
+                    font-weight: normal;
+                    color: #494949;
+                    line-height: 20px;
+                    padding-left: 25px;
+                }
+
+            }
+        }
+    }
+    
+}

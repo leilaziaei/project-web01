@@ -1,0 +1,146 @@
+.Selection-of-discount{
+    width: 100%;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    .Selection-of-discount-center{
+        width: var(--widthBanner);
+        height: inherit;
+        display: flex;        
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        border: lightgray 1px solid;
+        border-radius: 17px;
+
+
+        .title-text{
+
+            width: 100%;
+            height: 10%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 15px;
+            img{
+                width: 24px;
+                height: 24px;
+            }
+            h5{
+                font-size: 22px;
+                font-family: var(--fontfamiy);
+                color: #2b2b2b;
+            }
+        }
+
+        .product{
+            width: 100%;
+            height: 242px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .product-link{
+
+                width: 218px;
+                height: 242.44px;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                    object-fit: cover;
+
+                }
+
+                .product-item{
+                    width: 100%;
+                    height: fit-content;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+
+                    .percent{
+                        width: 34px;
+                        height: 20px;
+                        background-color: crimson;
+                        border-radius: 10px;
+                        color: whitesmoke;
+                        text-align: center;
+                        font-family: var(--fontFamilyNumber);
+                        font-size: 15px;
+                        font-weight: normal;
+                        margin-right: 15px;
+                    }
+
+                    .new-price{
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: flex-end;
+                        align-items: center;
+                        width: 167.6px;
+                        height: inherit;
+                        font-size: 23px;
+                        font-family: var(--fontFamilyNumber);
+                        color: #2b2b2b;
+                        font-weight: lighter;
+                        column-gap: 3px;
+                        margin-left: 10px;
+                        img{
+                            width: 25px;
+                            height: 25px;
+                        }
+
+                    }
+
+                    .old-price{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        width: 100%;
+                        height: fit-content;
+                        margin-left: 40px;
+                        margin-top: 18px;
+                        font-size: 18px;
+                        font-family: var(--fontFamily);
+                        color: rgb(117, 117, 117);
+                        font-weight: normal;
+                        text-decoration: line-through;
+
+
+                    }
+
+
+                }
+
+
+
+            }
+
+        }
+
+
+
+    }
+}
+
+.borderLeft-1{
+    border-left: 1px solid lightgray;
+    height: 242.5px;
+}
+.borderinsideBotton-2{
+    border-bottom: 1px solid lightgray;
+    /* width: 218.8px !important; */
+}

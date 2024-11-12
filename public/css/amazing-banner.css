@@ -1,0 +1,15 @@
+.amazing-banner{
+    width: 100%;
+    height: 60px;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    amazing-images{
+        width: 100%;
+        height: 100%;
+    }
+
+}

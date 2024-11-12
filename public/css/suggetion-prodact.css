@@ -1,0 +1,33 @@
+.suggetion-prodact{
+    width: 100%;
+    height: 244px;
+    /* background-color: blueviolet; */
+    /* margin-top: 10px; */
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    .suggetion-prodact-center{
+        width:var(--widthBanner);
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            width: 100%;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+            
+
+            img{
+                width: 322px;
+                height: 241px;
+                border-radius: 14px;
+            }
+        }
+
+    }
+}

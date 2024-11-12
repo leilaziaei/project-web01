@@ -1,0 +1,40 @@
+.slider {
+  width: 100%;
+  height: 400px;
+  .center-slider{
+
+    padding-bottom: 20px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .swiper-slide {
+      /* width: var(--widthBanner-amazing); */
+      height: 100%;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .swiper-slide-link{
+          width: 100%;
+          height: 100%;
+          display: block;
+          img{
+            display: block;
+            width:100% ;
+            height: 100%;
+            object-fit: cover;
+          }
+      }
+    }
+  }
+  
+
+
+
+
+}

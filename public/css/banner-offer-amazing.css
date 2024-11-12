@@ -1,0 +1,458 @@
+.banner-offer-amazing {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: greenyellow; */
+  padding-top: 10px;
+
+
+    .banner-offer-amazing-center-link {
+        width: var(--widthBanner-banner-offer-amazing );
+        height: inherit;
+        background: url(../images/supermarket/left-background.svg) no-repeat,
+        linear-gradient(to left, rgba(236, 238, 236, 1), rgba(236, 238, 236, 1));
+        border-radius: 10px;
+        background-position: left center;
+        display: flex;
+        flex-flow: row nowrap;
+
+        .banner-offer-amazing-center {
+            width: 100%;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+
+            .banner-offer-amazing-right {
+                width: 40%;
+                height: inherit;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                column-gap: 20px;
+                padding-right: 20px;
+
+                .item-images {
+                width: fit-content;
+                height: inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+
+                .banner-offer-amazing-offer {
+                width: 110px;
+                height: 28px;
+                /* margin-right: 20px; */
+                border-radius: 15px;
+                background-color: #029a49;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .text-offer {
+                    font-size: 18px;
+                    font-family: var(--fontFamily);
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: whitesmoke;
+                }
+                }
+            }
+
+            .banner-offer-amazing-left {
+                width: 60%;
+                height: inherit;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                column-gap: 10px;
+                padding-left: 40px;
+
+                .item-sals-mor{
+                    width: 142.5px;
+                    height: 50px;
+                    border-radius: 20px;
+                    background-color: white;
+                    
+                    a{
+                        width: inherit;
+                        height: inherit;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        align-items: center;
+                        justify-content: center;
+                        column-gap: 5px;
+
+                        text-decoration: none;
+                        span{
+                            font-family: var(--fontFamily);
+                            font-size: 17px;
+                            color: #029a49;
+                            text-align: center;
+        
+        
+                        }
+                        img{
+                            width: 20px;
+                            height: 20px;
+                        }
+
+
+                    }
+                }
+
+                .item-sals {
+                width: fit-content;
+                display: flex;
+                flex-flow: row wrap;
+
+
+
+                    .product {
+
+                        width: 74px;
+                        height: 74px;
+                        background-color: white;
+                        display: flex;
+                        flex-flow: column wrap;
+                        position: relative;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+
+                        img{
+                            width: 58px;
+                            height: 58px;
+                            border-radius: 50%;
+                            background-size: cover;
+
+                        }
+                        .prcent{
+                            width: 34px;
+                            height: 20px;
+                            border-radius: 13px;
+                            background-color: crimson;
+                            font-family: var(--fontFamilyNumber);
+                            font-size: 15px;
+                            text-align: center;
+                            color: whitesmoke;
+                            position: absolute;
+                            top: 55px;
+                            left: 50px;
+
+                        }
+                            
+                    }
+                }
+            }
+        }
+    }
+
+    .banner-offer-amazing-02-center-link{
+
+        width: var(--widthBanner-banner-offer-amazing);
+        height: 100%;
+        background: url(../images/Amazing/banner-offer-amazing/background-right.svg) right center no-repeat , url(../images/Amazing/banner-offer-amazing/background-left.svg) left center no-repeat ;
+        background-color:  rgba(236, 238, 236, 1);
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content:space-between ;
+        align-items: center;
+        .right-element{
+            padding-right: 25px;
+            width: 50%;
+            height: 100%;
+            img{
+                width: fit-content;
+                height: fit-content;
+            }
+        }
+
+        .left-element{
+            width:30% ;
+            height: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+
+            .left-element-top{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                column-gap: 10px;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+                span{
+                    font-size: 20px;
+                    font-family: var(--fontFamily);
+                    color: #b12ba4;
+                    font-weight: bold;
+
+                }
+
+            }
+
+            .left-element-botton{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+
+                .left-element-botton-right{
+                    height: 100%;
+                    width: 160.8px;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    column-gap: 8px;
+                    .hover ,.mints, .second{
+                        width: 40px;
+                        height: 40px;
+                        background-color: white;
+                        color: #b12ba4;
+                        font-size: 18px;
+                        font-family: var(--fontFamilyNumber);
+                        font-weight: normal;
+                        text-align: center;
+                        border-radius: 8px;
+                        /* padding-top: 10px; */
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: space-around;
+                        span{
+                            font-size: 10px;
+                            font-family: var(--fontFamily);
+                            font-weight: bold;
+                        }
+                    }
+
+                }
+                .left-element-botton-left{
+                    width: 100px;
+                    height: 100%;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    column-gap: 5px;
+
+                    span{
+                        font-size: 15px;
+                        font-family: var(--fontFamily);
+                        font-weight: bold;
+                        color: #b12ba4;
+                    }
+
+                    img{
+                        width: 16px;
+                        height: 16px;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .banner-offer-amazing-center-link-tomottow {
+        width: var(--widthBanner-banner-offer-amazing );
+        height: inherit;
+        background: url(../images/Amazing/banner-offer-amazing/tomorow-left.svg) no-repeat,
+        linear-gradient(to left, rgb(243, 219, 237), rgb(236, 223, 233),  rgb(248, 230, 243));
+        border-radius: 10px;
+        background-position: left center;
+        display: flex;
+        flex-flow: row nowrap;
+
+        .banner-offer-amazing-center {
+            width: 100%;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+
+            .banner-offer-amazing-right {
+                width: 50%;
+                height: inherit;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: flex-start;
+                align-items: center;
+                
+                padding-right: 50px;
+
+                
+                    
+                
+                .item-images {
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: flex-start;
+                    align-items: center;
+                    column-gap: 15px;
+                    text-decoration: none;
+                    padding-top: 15px;
+                    .clock {
+                        width: fit-content;
+                        height: 60px;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+                        direction: ltr;
+                        
+    
+                        .hours,
+                        .minets,
+                        .second {
+                            width: 26px;
+                            height: 26px;
+                            border-radius: 5px;
+                            background-color: whitesmoke;
+                            color: #2b2b2b;
+                            font-family: var(--fontFamilyNumber);
+                            font-size: 18px;
+                            font-weight: bold;
+                            padding-left: 10PX;
+                        }
+    
+                        .colon {
+                            color: black;
+                            font-size: 18px;
+                            font-weight: bold;
+                        }      
+                            
+                    }
+                    
+                }
+
+                .item-text-tomorrow{
+                    width: 100%;
+                    height:40% ;
+                    text-align: center;
+                    display: flex;
+                    justify-content: flex-start;
+                    text-decoration: none;
+                    span{
+                        font-size: 16px;
+                        font-family: var(--fontFamily);
+                        color: #2b2b2b;
+                        font-weight: 550;
+
+                    }
+
+                }
+
+            }
+            .banner-offer-amazing-left {
+                width: 60%;
+                height: inherit;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-end;
+                align-items: center;
+                column-gap: 20px;
+                padding-left: 50px;
+
+                .item-sals-mor{
+                    width: 142.5px;
+                    height: 50px;
+                    border-radius: 20px;
+                    background-color: white;
+                    
+                    a{
+                        width: inherit;
+                        height: inherit;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        align-items: center;
+                        justify-content: center;
+                        column-gap: 5px;
+
+                        text-decoration: none;
+                        span{
+                            font-family: var(--fontFamily);
+                            font-size: 17px;
+                            color: #029a49;
+                            text-align: center;
+        
+        
+                        }
+                        img{
+                            width: 20px;
+                            height: 20px;
+                        }
+
+
+                    }
+                }
+
+                .item-sals {
+                width: fit-content;
+                display: flex;
+                flex-flow: row wrap;
+
+
+
+                    .product {
+
+                        width: 74px;
+                        height: 74px;
+                        background-color: white;
+                        display: flex;
+                        flex-flow: column wrap;
+                        position: relative;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+
+                        img{
+                            width: 58px;
+                            height: 58px;
+                            border-radius: 50%;
+                            background-size: cover;
+
+                        }
+                        .prcent{
+                            width: 34px;
+                            height: 20px;
+                            border-radius: 13px;
+                            background-color: crimson;
+                            font-family: var(--fontFamilyNumber);
+                            font-size: 15px;
+                            text-align: center;
+                            color: whitesmoke;
+                            position: absolute;
+                            top: 55px;
+                            left: 50px;
+
+                        }
+                            
+                    }
+                }
+            }
+        }
+        
+    }
+}

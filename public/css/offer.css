@@ -1,0 +1,247 @@
+.offer {
+  width: 100%;
+  height: 300px;
+  /* background-color: navy;  */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+
+  .offer-center {
+    width: var(--widthBanner);
+    height: inherit;
+    background-color: crimson;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px 0;
+    box-sizing: border-box;
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      width: 160px !important;
+      height: 255px !important;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .swiper-slide-item {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+
+        .swiper-slide-item-link {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none !important;
+
+          .item-imgs01 {
+            img {
+              width: 88px;
+              height: 88px;
+            }
+          }
+
+          .clock {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            direction: ltr;
+
+            .hours,
+            .minets,
+            .second {
+              width: 26px;
+              height: 26px;
+              border-radius: 5px;
+              background-color: whitesmoke;
+              color: #2b2b2b;
+              font-family: var(--fontFamilyNumber);
+              font-size: 18px;
+              font-weight: bold;
+            }
+
+            .colon {
+              color: whitesmoke;
+              font-size: 18px;
+              font-weight: bold;
+            }
+
+            .item-imgs02 {
+              img {
+                width: 80px;
+                height: 80px;
+              }
+            }
+          }
+          .more-icon {
+            width: 86px;
+            height: 26px;
+            box-sizing: border-box;
+            span {
+              font-size: 15px;
+              font-family: var(--fontFamily);
+              color: whitesmoke;
+            }
+
+            img {
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+      }
+
+      .swiper-slider-product {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+
+        .swiper-slider-product-link {
+          width: inherit;
+          height: inherit;
+          text-decoration: none !important;
+          justify-content: center;
+
+          img {
+            padding-top: 10px;
+            /* display: block; */
+            width: 132px;
+            height: 132px;
+            object-fit: cover;
+            justify-content: center;
+            box-align: center;
+          }
+          span {
+            width: 100%;
+            font-size: 16px;
+            font-family: var(--fontFamily);
+            color: rgb(90, 87, 87);
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            margin: 5px auto;
+            display: flex;
+            text-align: right;
+            padding-right: 7px;
+          }
+          .newprice {
+            width: 100%;
+            height: 30px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            /* background-color: blue; */
+            /* margin-top: 1px; */
+
+            .offer-percent {
+              display: inline-block;
+              width: 34px;
+              height: 20px;
+              border-radius: 20px;
+              background-color: #d32f2f;
+              font-size: 14px;
+              font-family: var(--fontFamilyNumber);
+              font-weight: bold;
+              color: whitesmoke;
+            }
+            h3 {
+              font-size: 18px;
+              font-family: var(--fontFamilyNumber);
+              color: #2b2b2b;
+              font-weight: bold;
+              display: flex;
+              align-items: center;
+              /* background-color: aqua; */
+              width: 62%;
+              gap: 5px;
+              height: inherit;
+
+              img {
+                width: 16.75px !important;
+                height: 16.75px !important;
+                padding-bottom: 15px;
+              }
+            }
+          }
+
+          .oldprice {
+            font-family: var(--fontFamilyNumber);
+            font-size: 13px;
+            color: rgb(122, 121, 121);
+            text-decoration: line-through;
+            display: flex;
+            justify-content: center;
+            padding-right: 50px;
+          }
+        }
+      }
+
+      .swiper-slider-seemore {
+        width: 100%;
+        width: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 18px;
+        font-family: var(--fontFamily);
+        color: #424242;
+        text-decoration: none !important;
+
+        .seemore {
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+          border: 3px #19bfd3 solid;
+          img {
+            width: 35px;
+            height: 35px;
+            margin: 10px auto;
+          }
+        }
+      }
+
+      /* .swiper-slider-product img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      } */
+    }
+  }
+}
+
+.removebgoffer {
+  background-color: transparent !important;
+}
+
+.borderLeftRadius {
+  border-radius: 10px 0 0 10px;
+}
+
+.borderRightRadius{
+  border-radius: 0 10px 10px 0;
+}

@@ -1,0 +1,25 @@
+.partnership-banner{
+    width: 100%;
+    height: 167px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .partnership-banner-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: var(--widthBanner);
+        height: inherit;
+        border-radius: 16px;
+        img{
+            width:100%;
+            height: inherit;
+            object-fit: cover;
+            border-radius: 16px;
+
+        }
+    }
+}

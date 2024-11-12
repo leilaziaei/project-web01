@@ -1,0 +1,75 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    direction: rtl;
+}
+
+@font-face{
+    font-family: "iranyekan";
+    src: url(../fonts/iran-yekan/IRANYekanWeb-Bold.eot);
+    src: url(../fonts/iran-yekan/IRANYekanWeb-Bold.ttf);
+    src: url(../fonts/iran-yekan/IRANYekanWeb-Bold.woff);
+    src: url(../fonts/iran-yekan/IRANYekanWeb-Bold.woff2);
+}
+
+@font-face {
+    font-family: "Bnazanin";
+    src: url(../fonts/b-nazanin/BNazanin.eot);
+    src: url(../fonts/b-nazanin/BNazanin.ttf);
+    src: url(../fonts/b-nazanin/BNazanin.woff);
+    src: url(../fonts/b-nazanin/BNazanin.woff2);
+}
+:root{
+    --fontfamiy: iranyekan ;
+    --fontFamilyNumber :Bnazanin;
+    --widthBanner : 1336px;
+    --widthBanner-amazing : 1500px;
+    --widthBanner-banner-offer-amazing : 1496px;
+    --widthFooter: 90%;
+    --widthSmaller :1300px;
+    --color-icon-oreng : #f9a825;
+    --color-icon-text-blue:#19bfd3;
+
+}
+.total{
+    width: 100%;
+}
+
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    width: 35px;
+    height: 35px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+   
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size:12px ;
+    font-weight: bold;
+    color: #2b2b2b;
+    
+
+}
+
+.swiper-button-disabled{
+   opacity: 0% !important; 
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+
+    width: 5px;
+    height: 5px;
+    background-color: #2b2b2b;
+}
+
+.swiper-pagination-bullet-active{
+
+    width: 20px !important;
+    border-radius: 5px !important;
+    background-color: aliceblue !important;
+    transition: 300ms;
+}
